@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+$font-bold:'Francois One', sans-serif;
+$font:'Raleway', sans-serif;
+
+.head{
+    background-image: url('./public/images/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header{
+    background-color: rgba($color: #fff, $alpha: 0.8);
+}
+
+.header-item{
+    font-family: $font-bold;
+    font-size: 18px;
+    color: black;
+}
+
+.header-item:hover{
+    text-decoration: none !important;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 25px;   
+}
+
+.icon-user{
+    cursor: pointer;
+}
+
+.icon-user>i{
+    font-size: 30px;
+}
+
+
+.box-user{
+    position: fixed;
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(173, 169, 169, 0.6);
+    z-index: 10;
+}
+
+.modal-user{
+    z-index: 11;
+    position: relative;
+    background-color: white;
+    left: 50%;
+    top: 30%;
+    width: 40%;
+    transform: translate(-50%,-30%);
+    border-radius: 20px;
+}
+
+.modal-user-exit{
+    background: none;
+    float: right;
+    font-size: 35px;
+}
+
+.modal-user-exit:hover{
+    opacity: .6;
+}
+
+.tab-sign{
+    font-size: 25px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.tab-sign>a{
+    font-weight: bold;
+    font-family: $font-bold;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.tab-sign>a:hover{
+    text-decoration: none;
+}
+
+.btn-sign-in{
+    font-family: $font-bold;
+    // font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 18px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+
+.banner{
+    padding: 80px;
+}
+
+.banner-title{
+    font-size: 100px;
+    font-family: $font-bold;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    line-height: 120px;
+}
+
+// CIRCLE PROGESS
+
+.circle-progress-value {
+	stroke-width: 12px;
+	stroke: violet;
+}
+.circle-progress-circle {
+	stroke: white;
+	stroke-width: 11px;
+	fill: #666;
+}
+.circle-progress-text {
+	font-family: "Georgia";
+	font-size: 13px;
+	fill: white;
+}
+
+.banner-sub{
+    font-size: 16px;
+}
+
+.watch-now{
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+
+.icon-share>i{
+    font-size: 20px;
+}
+
+.icon-next>i{
+    font-size: 20px;
+}
+
+.body{
+    background-color: #c7d0d8;
+
+}
+
+.high-view{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    z-index: -99;
+    &-title{
+        font-family: $font-bold;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    
+    &-des{
+        font-size: 16px;
+        max-width: 400px;
+    }
+
+}
+
+.rank-title.rank-title-active{
+    font-size: 100px;
+    padding: 0px 0 10px 0;
+    font-weight: bold;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    font-family: $font-bold;
+}
+
+.rank-title{
+    font-size: 100px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    padding: 0px 0  10px 0;
+    font-weight: bold;
+    font-family: $font-bold;
+    color: #717375;
+}
+
+
+.rank:hover .rank-title{
+    color: #744865;
+    
+}
+
+.rank:hover{
+    background-color: #e890cb;
+}
+
+.rank{
+    background-color: #e3e7eb;
+    border-radius: 20px;
+    width: 280px;
+    
+}
+
+.tab-view{
+    padding:30px 30px 0px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.rank-name{
+    color: black !important;
+    text-transform: uppercase;
+}
+
+.rank-footer{
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $font-bold;
+}
+
+.rank-footer>span{
+    font-weight: bold;
+    font-family: $font-bold;
+    font-size: 60px;
+}
+
+.rank-viewnow{
+    font-size: 25px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+// recommnet
+
+.box-chart{
+    color: black;
+}
+
+.box-chart-title{
+    font-family: $font-bold;
+    font-weight: bold;
+}
+
+.box-chart-title:hover{
+    text-decoration: none !important;
+}
+
+.recomment-card:hover{
+    text-decoration: none;
+}
+
+.recomment-title{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: $font-bold;
+}
+
+.recomment-watchmore{
+    font-size: 20px;
+    color: black;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.recommnet-slide{
+    padding: 0 !important;
+    height: 500px;
+}
+
+.recomment-body{
+    text-align: left;
+    padding: 10px;
+}
+
+.recomment-body>.card-title{
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: $font-bold;
+}
+
+// FOOTER
+
+.footer{
+    background-image: url('./public/images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+.footer-title{
+    text-align: center;
+    padding-top: 40px;
+    &-head>h2{
+        font-weight: bold;
+        font-family: $font-bold;
+        font-size: 35px;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+.search-field {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    z-index: 1;
+  }
+
+.search-button{
+      z-index: 1;
+      background: none;
+      position:relative;
+      left: 15%;
+    //   transform: translateX(-50%);
+  }
+  
+.search-button>i{
+        font-size: 25px;
+    }
+
+.footer-body{
+    background-color: #e3e7eb;
+    border-radius: 20px;
+    padding-top: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-body-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer-body-title>h2{
+    font-family: $font-bold;
+    font-size: 40px;
+}
+
+.footer-body-widget{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 0 0 20px;
+    font-size: 18px;
+    color: black;
+    background-color: #e79cd0;
+    border-radius: 25px;
+}
+
+.footer-body-widget:hover{
+    text-decoration: none;
+    background-color: #da6d95;
+}
+
+.footer-body-widget>h3{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: $font-bold;
+}
+
+.footer-icon>i{
+    font-size: 35px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.footer-bot-info{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.footer-bot-info:hover{
+    text-decoration: none;
+}

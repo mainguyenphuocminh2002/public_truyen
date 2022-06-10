@@ -1,0 +1,82 @@
+.banner {
+  padding: 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner-title {
+  font-size: 100px;
+  font-family: "Francois One", sans-serif;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  line-height: 120px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #b78a28 !important;
+}
+
+.circle-progress-value {
+  stroke-width: 12px;
+  stroke: violet;
+}
+
+.circle-progress-circle {
+  stroke: white;
+  stroke-width: 11px;
+  fill: #666;
+}
+
+.circle-progress-text {
+  font-family: "Georgia";
+  font-size: 13px;
+  fill: white;
+}
+
+.banner-sub {
+  font-size: 16px;
+}
+
+.watch-now {
+  color: black;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: whitesmoke;
+}
+
+.icon-share>i {
+  font-size: 20px;
+}
+
+.icon-next>i {
+  font-size: 20px;
+}
+
+.body {
+  background-color: #c7d0d8;
+}
+
+.ranking{
+  box-shadow: 0 10px 25px 0 #d7d4ce;
+  border-radius: 5px;
+}
+
+.ranking-watchmore{
+  display: none;
+  color: #b78a28 !important;
+}
+
+.ranking:hover .ranking-watchmore{
+  display: block;
+}
+
+.ranking-content {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}

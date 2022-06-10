@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/bs4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/bs4/js/bootstrap.min.js">
+    <link rel="stylesheet" href="./public/fa-4.7/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Raleway:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./public/owl/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./public/bs4/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="./public/bs4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <!-- HEAD -->
+
+        <section class="head">
+            <header class="header shadow p-4 rounded">
+                <div class="container">
+                    <div class="row d-flex align-items-center ">
+
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 d-flex justify-content-start header-item logo">
+                            ANIVALLEY
+                        </div>
+
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <div class="nav-item d-flex align-items-center justify-content-around">
+                                <a href="#" class="col-auto header-item">
+                                    TRANG CHỦ
+                                </a>
+
+                                <a href="#" class="col-auto header-item">
+                                    THỂ LOẠI
+                                </a>
+                                <a href="#" class="col-auto header-item">
+                                    MỚI NHẤT
+                                </a>
+                                <a href="#" class="col-auto header-item">
+                                    YÊU THÍCH
+                                </a>
+                                <a href="#" class="col-auto header-item">
+                                    TÌM KIẾM
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 d-flex justify-content-end">
+                            <div class="icon-user">
+                                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                            </div>
+
+                        </div>
+                        <div class="box-user">
+                            <div class="modal-user">
+                                <div class="container">  
+                                    <div class="w-100 pb-4">
+                                        <button type="button" class="btn modal-user-exit">&times</button>
+                                    </div>
+                                    <div role="tabpanel mt-5">
+                                        <!-- Nav tabs -->
+                                        <ul class="nav nav-tabs d-flex align-items-center justify-content-center" role="tablist">
+                                            
+                                            <li role="presentation" class="tab-sign active">
+                                                <a href="#sign-in" aria-controls="sign-in" data-toggle="tab">ĐĂNG NHẬP</a>
+                                            </li>
+                                            <li role="presentation" class="tab-sign">
+                                                <a href="#sign-up" aria-controls="sign-up" data-toggle="tab">ĐĂNG KÝ</a>
+                                            </li>
+                                        </ul>
+                                        
+                                    
+                                        <!-- Tab panes -->
+                                        <div class="tab-content">
+                                            <div role="tabpanel" class="tab-pane active" id="sign-in">
+                                                <form action="">
+                                                    <div class="container">
+                                                        <div class="form-group">
+                                                            <label for="">Email</label>
+                                                            <input type="email" placeholder="Vui Lòng Nhập Email..." style="border-radius: 20px;" class="form-control">
+                                                        </div>
+    
+                                                        <div class="form-group">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <label for="">Mật Khẩu</label>
+                                                                <div style="color: goldenrod;">Quên Mật Khẩu</div>
+                                                            </div>
+                                                            <input type="password" placeholder="Vui Lòng Nhập Mật Khẩu..." style="border-radius: 20px;" class="form-control">
+                                                        </div>
+    
+                                                        <div class="form-group pb-3 text-center">
+                                                            
+                                                            <button type="button" class="btn btn-primary btn-md btn-sign-in">ĐĂNG NHẬP</button>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </form>
+                                                <div class="sign-in-footer text-center py-2">
+                                                    <p style="font-size: 20px;">Bạn Chưa Có Tài Khoản?<a href="#" class="sign-up-now" style="color: goldenrod;font-weight: bold;">Đăng Ký Ngay</a></p>
+                                                </div>
+                                            </div>
+                                            <!-- Sign Up -->
+                                            <div role="tabpanel" class="tab-pane" id="sign-up">
+                                                <form action="">
+                                                    <div class="container">
+                                                        <div class="form-group">
+                                                            <label for="">Email</label>
+                                                            <input type="email" placeholder="Vui Lòng Nhập Email..." style="border-radius: 20px;" class="form-control">
+                                                        </div>
+    
+                                                        <div class="form-group">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <label for="">Mật Khẩu</label>
+                                                            </div>
+                                                            <input type="password" placeholder="Vui Lòng Nhập Mật Khẩu..." style="border-radius: 20px;" class="form-control">
+                                                        </div>
+                                                        <div class="form-group">
+                                                                <label for="">Nhập Lại Mật Khẩu</label>
+                                                            <input type="password" placeholder="Vui Lòng Nhập Lại Mật Khẩu..." style="border-radius: 20px;" class="form-control">
+
+                                                            </div>
+
+                                                        <div class="form-group pb-3 text-center">
+                                                            
+                                                            <button type="button" class="btn btn-primary btn-md btn-sign-in">ĐĂNG KÝ</button>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-auto header-item">
+                        </div> -->
+                </div>
+            </header>
+            <div class="banner w-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <h1 class="banner-title">ĐỌC TRUYỆN <br> KHÔNG LAG</h1>
+                            <p class="banner-sub">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+                                autem aut quia? Minus
+                                adipisci distinctio facilis deserunt cupiditate dignissimos error. Consequatur beatae
+                                quos
+                                illo
+                                laudantium, aspernatur veritatis quia sapiente repellat?</p>
+                            <a href="" class="btn btn-lg watch-now">Xem Ngay</a>
+                        </div>
+
+
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div  class="card box-chart">
+                                <div class="card-body">
+                                    <div class="box-card-title d-flex align-items-center justify-content-between mb-2">
+                                        <div class="title">
+                                            <h6 class="card-title box-chart-title">ANIVALLEY</h6>
+                                        </div>
+                                        <div class="icon-share">
+                                            <i class="fa fa-share-square-o" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <h6 class="card-subtitle mb-2 text-muted" style="font-size: 14px;">Last 7 days ago
+                                    </h6>
+                                    <div class="row d-flex justify-content-around">
+                                        <div class="progress-1"></div>
+                                        <div class="progress-2"></div>
+                                        <div class="progress-3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="box-card d-flex align-items-center justify-content-around">
+                                        <div class="title mr-3">
+                                            <div class="icon-user">
+                                                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <div class="box-body mr-2">
+                                            <h6 class="card-title">ADMIN</h6>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the
+                                            </p>
+                                        </div>
+                                        <div class="icon-next ">
+                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- BODY -->
+
+        <section class="body">
+            <div class="high-view pt-5">
+                <div class="container">
+                    <h2 class="high-view-title">XEM NHIỀU TRONG TUẦN</h2>
+                    <p class="high-view-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, placeat.
+                        Alias
+                        iste vero exercitationem reprehenderit asperiores, perspiciatis esse nisi ea temporibus
+                        molestiae,
+                        qui illum minima deserunt, quo cum incidunt ex?</p>
+                    <div class="owl-carousel owl-theme">
+                        <div class="card item rank-active rank">
+                            <div class="card-body tab-view">
+                                <div class="high-view-rank ">
+                                    <div class="title">
+                                        <h6 class="rank-title rank-title-active">01</h6>
+                                    </div>
+                                </div>
+                                <h4 style="font-weight: bold;" class="card-subtitle rank-name mb-2 text-muted">Tensei
+                                    shitara Slime Datta Ken
+                                </h4>
+                                <p class="card-text">Thirty-seven-year-old Satoru
+                                    Mikami is a typical corporate worker, who
+                                    is perfectly content with his monotonous</p>
+                                <p class="rank-footer text-center"><span>X</span> 100</p>
+                                <a href="#" class="rank-viewnow btn btn-lg"><i class="fa fa-eye"
+                                        style="padding-right: 5px;"></i>Xem Ngay</a>
+
+                            </div>
+                        </div>
+                        <div class="card item rank">
+                            <div class="card-body tab-view">
+                                <div class="high-view-rank ">
+                                    <div class="title">
+                                        <h6 class="rank-title">02</h6>
+                                    </div>
+                                </div>
+                                <h4 style="font-weight: bold;" class="card-subtitle rank-name mb-2 text-muted">Tensei
+                                    shitara Slime Datta Ken
+                                </h4>
+                                <p class="card-text">Thirty-seven-year-old Satoru
+                                    Mikami is a typical corporate worker, who
+                                    is perfectly content with his monotonous</p>
+                                <p class="rank-footer text-center"><span>X</span> 100</p>
+                                <a href="#" class="rank-viewnow btn btn-lg"><i class="fa fa-eye"
+                                        style="padding-right: 5px;"></i>Xem Ngay</a>
+
+                            </div>
+                        </div>
+                        <div class="card item rank">
+                            <div class="card-body tab-view">
+                                <div class="high-view-rank ">
+                                    <div class="title">
+                                        <h6 class="rank-title">03</h6>
+                                    </div>
+                                </div>
+                                <h4 style="font-weight: bold;" class="card-subtitle mb-2 rank-name text-muted">Tensei
+                                    shitara Slime Datta Ken
+                                </h4>
+                                <p class="card-text">Thirty-seven-year-old Satoru
+                                    Mikami is a typical corporate worker, who
+                                    is perfectly content with his monotonous</p>
+                                <p class="rank-footer text-center"><span>X</span> 100</p>
+                                <a href="#" class="rank-viewnow btn btn-lg"><i class="fa fa-eye"
+                                        style="padding-right: 5px;"></i>Xem Ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Reccomment -->
+
+            <div class="recomment pt-5">
+                <div class="container">
+                    <div class="recomment-head d-flex align-items-center justify-content-between">
+                        <h2 class="recomment-title">BẠN NÊN XEM</h2>
+                        <a href="#" class="recomment-watchmore">XEM THÊM</a>
+                    </div>
+
+                    <div class="owl-carousel owl-theme">
+                        <a href="#" class="card recomment-card">
+                            <div class="card-body recommnet-slide">
+                                <img class="card-img-top"
+                                    src="./public/images/tensei_shitara_slime_datta_ken_by_rectanius_dd0eryk-fullview.jpg"
+                                    alt="Card image" style="width:100%">
+                                <div class="recomment-body">
+                                    <h4 class="card-title"> Tensei shitara Slime Datta Ken</h4>
+                                    <p class="card-text">Thirty-seven-year-old Satoru
+                                        Mikami is a typical corporate worker, who
+                                        is perfectly content with his monotonous
+                                    </p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card recomment-card">
+                            <div class="card-body recommnet-slide">
+
+                                <img class="card-img-top"
+                                    src="./public/images/tensei_shitara_slime_datta_ken_by_rectanius_dd0eryk-fullview.jpg"
+                                    alt="Card image" style="width:100%">
+                                <div class="recomment-body">
+                                    <h4 class="card-title"> Tensei shitara Slime Datta Ken</h4>
+                                    <p class="card-text">Thirty-seven-year-old Satoru
+                                        Mikami is a typical corporate worker, who
+                                        is perfectly content with his monotonous
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </a>
+                        <a href="#" class="card recomment-card">
+                            <div class="card-body recommnet-slide">
+                                <img class="card-img-top"
+                                    src="./public/images/tensei_shitara_slime_datta_ken_by_rectanius_dd0eryk-fullview.jpg"
+                                    alt="Card image" style="width:100%">
+                                <div class="recomment-body">
+                                    <h4 class="card-title"> Tensei shitara Slime Datta Ken</h4>
+                                    <p class="card-text">Thirty-seven-year-old Satoru
+                                        Mikami is a typical corporate worker, who
+                                        is perfectly content with his monotonous
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </a>
+
+
+                    </div>
+
+                    <div class="mt-5 owl-carousel owl-theme">
+                        <a href="#" class="card recomment-card">
+                            <div class="card-body recommnet-slide">
+                                <img class="card-img-top"
+                                    src="./public/images/tensei_shitara_slime_datta_ken_by_rectanius_dd0eryk-fullview.jpg"
+                                    alt="Card image" style="width:100%">
+                                <div class="recomment-body">
+                                    <h4 class="card-title"> Tensei shitara Slime Datta Ken</h4>
+                                    <p class="card-text">Thirty-seven-year-old Satoru
+                                        Mikami is a typical corporate worker, who
+                                        is perfectly content with his monotonous
+                                    </p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="card recomment-card">
+                            <div class="card-body recommnet-slide">
+
+                                <img class="card-img-top"
+                                    src="./public/images/tensei_shitara_slime_datta_ken_by_rectanius_dd0eryk-fullview.jpg"
+                                    alt="Card image" style="width:100%">
+                                <div class="recomment-body">
+                                    <h4 class="card-title"> Tensei shitara Slime Datta Ken</h4>
+                                    <p class="card-text">Thirty-seven-year-old Satoru
+                                        Mikami is a typical corporate worker, who
+                                        is perfectly content with his monotonous
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </a>
+                        <a href="#" class="card recomment-card">
+                            <div class="card-body recommnet-slide">
+                                <img class="card-img-top"
+                                    src="./public/images/tensei_shitara_slime_datta_ken_by_rectanius_dd0eryk-fullview.jpg"
+                                    alt="Card image" style="width:100%">
+                                <div class="recomment-body">
+                                    <h4 class="card-title"> Tensei shitara Slime Datta Ken</h4>
+                                    <p class="card-text">Thirty-seven-year-old Satoru
+                                        Mikami is a typical corporate worker, who
+                                        is perfectly content with his monotonous
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </a>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+
+        <section class="footer">
+
+            <div class="container">
+                <div class="footer-title">
+                    <div class="footer-title-head">
+                        <h2>TÌM KIẾM NHANH</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                    <form action="/" method="GET" class="form">
+                        <input type="search" placeholder="Search" class="search-field" />
+                        <button type="submit" class="search-button btn">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="footer-body">
+                    <div class="footer-body-title">
+                        <h2>DỊCH VỤ CỦA ANIVALLEY</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <div class="container mt-5">
+                            <div class="row justify-content-around" >
+
+                                <a href="#" class="footer-body-widget col-xs-3  col-sm-3  col-md-3  col-lg-3 ">
+                                    <div class="footer-icon">
+                                        <i class="fa fa-times-circle-o" aria-hidden="true"></i>
+                                    </div>
+                                    <h3>LỖI THƯỜNG GẶP</h3>
+                                    <p>FAQ</p>
+                                </a>
+
+                                <a href="#" class="footer-body-widget col-xs-3  col-sm-3  col-md-3  col-lg-3 ">
+                                    <div class="footer-icon">
+                                        <i class="fa fa-globe" aria-hidden="true"></i>
+                                    </div>
+                                    <h3>HỢP TÁC</h3>
+                                    <p>Cooperate</p>
+                                </a>
+
+                                <a href="#" class="footer-body-widget col-xs-3  col-sm-3  col-md-3  col-lg-3 ">
+                                    <div class="footer-icon">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                    </div>
+                                    <h3>CHĂM SÓC KHÁCH HÀNG</h3>
+                                    <p>Service</p>
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <footer class="footer-bot d-flex flex-column text-center mt-5">
+                        <a class="footer-bot-info" href="#">Bạn Còn Những Vấn Đề Khác ?</a>
+                        <a class="footer-bot-info" href="#">Tham Khảo Nguồn Truyện?</a>
+                        <a class="footer-bot-info" href="#">Tìm Hiểu Tác Giả?</a>
+                        <a class="footer-bot-info" href="#">View More</a>
+                    </footer>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="./public/jquery-3.6.0.min.js"></script>
+    <script src="./public/owl/dist/owl.carousel.min.js"></script>
+    <script src="./public/circle-progress.min.js"></script>
+    <script src="./mine.js"></script>
+</body>
+
+</html>
